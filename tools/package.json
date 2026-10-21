@@ -1,0 +1,11 @@
+{
+  "name": "teddypups-mirror-tools",
+  "private": true,
+  "description": "Records the live site's Next.js RSC payloads into ../mirror/_rsc",
+  "scripts": {
+    "record-rsc": "node record_rsc.js"
+  },
+  "dependencies": {
+    "puppeteer-core": "23.11.1"
+  }
+}

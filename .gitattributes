@@ -1,0 +1,3 @@
+# Mirrored files must stay byte-exact: RSC payloads contain length-prefixed
+# chunks, so line-ending conversion on checkout would corrupt them.
+mirror/** -text
